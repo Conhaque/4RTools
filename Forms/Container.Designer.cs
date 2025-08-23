@@ -200,7 +200,7 @@ namespace _4RTools.Forms
             this.lblLinkDiscord.Size = new System.Drawing.Size(92, 13);
             this.lblLinkDiscord.TabIndex = 8;
             this.lblLinkDiscord.TabStop = true;
-            this.lblLinkDiscord.Text = "Join in our discord";
+            this.lblLinkDiscord.Text = "Info (Disabled)";
             this.lblLinkDiscord.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLinkDiscord_LinkClicked);
             // 
             // lblLinkGithub
@@ -211,7 +211,7 @@ namespace _4RTools.Forms
             this.lblLinkGithub.Size = new System.Drawing.Size(74, 13);
             this.lblLinkGithub.TabIndex = 9;
             this.lblLinkGithub.TabStop = true;
-            this.lblLinkGithub.Text = "Github Project";
+            this.lblLinkGithub.Text = "About (Disabled)";
             this.lblLinkGithub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLinkGithub_LinkClicked);
             // 
             // panelDiscImage
@@ -273,7 +273,7 @@ namespace _4RTools.Forms
             this.websiteLinkLabel.Size = new System.Drawing.Size(91, 13);
             this.websiteLinkLabel.TabIndex = 12;
             this.websiteLinkLabel.TabStop = true;
-            this.websiteLinkLabel.Text = "WebSite 4RTools";
+            this.websiteLinkLabel.Text = "MyRagnarokTools (Offline)";
             this.websiteLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.websiteLinkLabel_LinkClicked);
             // 
             // panel1
