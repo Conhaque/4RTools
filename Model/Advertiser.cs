@@ -30,16 +30,8 @@ namespace _4RTools.Model
 
             try
             {
-
-                var requestAccepts = httpClient.DefaultRequestHeaders.Accept;
-                requestAccepts.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                httpClient.DefaultRequestHeaders.UserAgent.TryParseAdd("request"); //Set the User Agent to "request"
-                httpClient.Timeout = TimeSpan.FromSeconds(5);
-                var response = httpClient.GetAsync(AppConfig._4RAdvertiserUrl).Result;
-                var json = response.Content.ReadAsStringAsync().Result;
-
-                Console.WriteLine(json);
-                ads.AddRange(JsonConvert.DeserializeObject<List<Advertiser>>(json));
+                // Advertisement fetching disabled - working offline only
+                // Skip external advertisement loading
             }
             catch (Exception ex)
             {
