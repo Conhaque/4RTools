@@ -1,9 +1,20 @@
-# MyRagnarokTools
-This is an all-in-one tool for **Ragnarök Online** servers. You will be able to Autopot, Spam Skill, Use Macro Songs and much more. This is a custom version designed for personal use.
+<p align="center">
+  <img src="/assets/images/combo-tools.png">
+</p>
 
-**THIS IS A CUSTOM TOOL FOR PERSONAL USE**
+# 4RTools
+This is an all-in-one tool for **Ragnarök Online** servers. You will be able to Autopot, Spam Skill, Use Macro Songs and much more. Hope you enjoy it and collaborate with us. If you have found a bug or want to request a feature, feel free to open an issue!
 
-*Made for personal gaming experience*.
+**THIS IS A FREE TOOL, YOU CAN MAKE EVERYTHING YOU WANT UNDER MIT LICENSE. WE ARE OPEN FOR IDEAS AND COLLABORATIONS**
+
+*Made from community TO community*.
+
+Your Feedback is Welcome!
+
+**Discord:** https://discord.gg/HRWvG5ut
+**Website:** https://www.4rtools.com.br/
+
+<img src='assets/images/ragnarok-icon.png' width='40'>
 
 ## Running the project
 This project was created using Visual Studio 2022, just open `4RTools.sln` in Visual Studio, and you'll be able to run and generate your own releases.
@@ -20,3 +31,11 @@ This project was created using Visual Studio 2022, just open `4RTools.sln` in Vi
 - [x] Song Macro
 - [x] Macro Switch/Macro Chain
 - [x] ATK x DEF Mode switch
+
+#### References
+https://github.com/k1ngJ/dtAP
+
+## Collaborators
+<a href="https://github.com/4RTools/4RTools/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=4RTools/4RTools" />
+</a>

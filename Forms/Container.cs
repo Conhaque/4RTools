@@ -131,20 +131,17 @@ namespace _4RTools.Forms
 
         private void lblLinkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            // Disabled external link
-            MessageBox.Show("External links have been disabled in this version.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Process.Start(AppConfig.GithubLink);
         }
 
         private void lblLinkDiscord_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            // Disabled external link
-            MessageBox.Show("External links have been disabled in this version.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Process.Start(AppConfig.DiscordLink);
         }
 
         private void websiteLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            // Disabled external link
-            MessageBox.Show("External links have been disabled in this version.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Process.Start(AppConfig.Website);
         }
 
         private void profileCB_SelectedIndexChanged(object sender, EventArgs e)
