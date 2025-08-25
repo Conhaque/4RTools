@@ -27,18 +27,21 @@ namespace _4RTools.Forms
 
 
             /**
-             * Load local servers only - no remote fetching
+             * Try to load remote supported_server.json file and append all data in clients list.
              */
             try
             {
                 clients.AddRange(LocalServerManager.GetLocalClients()); //Load Local Servers First
-                // Skip remote fetching - working offline only
-                clients.AddRange(JsonConvert.DeserializeObject<List<ClientDTO>>(LoadResourceServerFile()));
+                //If fetch successfully update and load local file.
+                httpClient.Timeout = TimeSpan.FromSeconds(5);
+                string remoteServersRaw = await httpClient.GetStringAsync(AppConfig._4RClientsURL);
+                clients.AddRange(JsonConvert.DeserializeObject<List<ClientDTO>>(remoteServersRaw));
 
             }
             catch(Exception ex)
             {
-                //If catch some exception while loading, load resource file.
+                //If catch some exception while Fetch, load resource file.
+                MessageBox.Show("Cannot load supported_servers file. Loading resource instead....");
                 clients.AddRange(JsonConvert.DeserializeObject<List<ClientDTO>>(LoadResourceServerFile()));
             }
             finally

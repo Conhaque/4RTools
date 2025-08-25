@@ -5,15 +5,15 @@ namespace _4RTools.Utils
 {
     internal class AppConfig
     {
-        public static string Name = "MyRagnarokTools";
+        public static string Name = "4RTools";
         public static string ProfileFolder = "Profile\\";
-        public static string Website = "";
-        public static string GithubLink = "";
-        public static string DiscordLink = "";
-        public static string _4RClientsURL = "";
-        public static string _4RAdvertiserUrl = "";
-        public static string _4RLatestVersionURL = "";
-        public static string _4RApiHost = "";
-        public static string Version = "v1.0.0";
+        public static string Website = "https://www.4rtools.com.br";
+        public static string GithubLink = "https://github.com/4RTools/4Rtools";
+        public static string DiscordLink = "https://discord.gg/AtZ2fJVtBz";
+        public static string _4RClientsURL = "https://storage.googleapis.com/4rtools/supported_servers.json";
+        public static string _4RAdvertiserUrl = ".";
+        public static string _4RLatestVersionURL = ".";
+        public static string _4RApiHost = "https://api.4rtools.com.br/api";
+        public static string Version = "v2.9.4";
     }
 }
